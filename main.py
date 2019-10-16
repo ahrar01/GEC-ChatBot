@@ -112,6 +112,6 @@ def chat():
             if tg['tag'] == tag:
                 responses = tg['responses']
 
-        print(random.choice(responses))
+        print("ChatBot: "+random.choice(responses))
 
 chat()
