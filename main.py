@@ -191,7 +191,9 @@ def get_bot_response():
     return str(chat(userText))
 
 if __name__ == "__main__":
-    print("*"*60)
+        app.run()
+        """ 
+   print("*"*60)
     time.sleep(1)
     print("*"*40)
     time.sleep(1)
@@ -206,5 +208,5 @@ if __name__ == "__main__":
     print("1 sec")
     time.sleep(1)
     print("0 sec")
-    webbrowser.open("http://127.0.0.1:5000/")
-    app.run()
+    webbrowser.open("http://127.0.0.1:5000/") 
+    """
