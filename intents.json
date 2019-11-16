@@ -1,33 +1,115 @@
-{"intents": [
-        {"tag": "greeting",
-         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
-         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
-         "context_set": ""
-        },
-        {"tag": "goodbye",
-         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
-         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
-         "context_set": ""
-        },
-        {"tag": "age",
-         "patterns": ["how old", "how old is tim", "what is your age", "how old are you", "age?"],
-         "responses": ["I am 18 years old!", "18 years young!"],
-         "context_set": ""
-        },
-        {"tag": "name",
-         "patterns": ["what is your name", "what should I call you", "whats your name?"],
-         "responses": ["You can call me Tim.", "I'm Tim!", "I'm Tim aka Tech With Tim."],
-         "context_set": ""
-        },
-        {"tag": "shop",
-         "patterns": ["Id like to buy something", "whats on the menu", "what do you reccommend?", "could i get something to eat"],
-         "responses": ["We sell chocolate chip cookies for $2!", "Cookies are on the menu!"],
-         "context_set": ""
-        },
-        {"tag": "hours",
-         "patterns": ["when are you guys open", "what are your hours", "hours of operation"],
-         "responses": ["We are open 7am-4pm Monday-Friday!"],
-         "context_set": ""
-        }
-   ]
+{
+        "intents": [
+                {
+                        "tag": "greeting",
+                        "patterns": [
+                                "Hi",
+                                "How are you",
+                                "Is anyone there?",
+                                "Hello",
+                                "Good day",
+                                "Whats up"
+                        ],
+                        "responses": [
+                                "Hello!",
+                                "Good to see you again!",
+                                "Hi there, how can I help?"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "goodbye",
+                        "patterns": [
+                                "cya",
+                                "See you later",
+                                "Goodbye",
+                                "I am Leaving",
+                                "Have a Good day"
+                        ],
+                        "responses": [
+                                "Sad to see you go :(",
+                                "Talk to you later",
+                                "Goodbye!"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "age",
+                        "patterns": [
+                                "how old",
+                                "how old is ahraar",
+                                "what is your age",
+                                "how old are you",
+                                "age?"
+                        ],
+                        "responses": [
+                                "I am 22 years old!",
+                                "22 years young!"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "name",
+                        "patterns": [
+                                "what is your name",
+                                "what should I call you",
+                                "whats your name?"
+                        ],
+                        "responses": [
+                                "You can call me Botwa.",
+                                "I'm Botwa!"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "shop",
+                        "patterns": [
+                                "Id like to buy something",
+                                "whats on the menu",
+                                "what do you reccommend?",
+                                "could i get something to eat"
+                        ],
+                        "responses": [
+                                "We sell chocolate chip cookies for $2!",
+                                "Cookies are on the menu!"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "hours",
+                        "patterns": [
+                                "when are you guys open",
+                                "what are your hours",
+                                "hours of operation"
+                        ],
+                        "responses": [
+                                "We are open 7am-4pm Monday-Friday!"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "course",
+                        "patterns": [
+                                "what are the courses offered in your college?",
+                                "courses?",
+                                "branches?",
+                                "courses available at GEC?",
+                                "branches available at GEC?",
+                                "what are the courses in GEC?",
+                                "what are branches in GEC?",
+                                "what are courses in GEC?",
+                                "branches available in GEC?",
+                                "can you tell me the courses available in GEC?",
+                                "can you tell me the branches available in GEC?",
+                                "Civil engineering?",
+                                "civil",
+                                "it",
+                                "IT"
+                        ],
+                        "responses": [
+                                "CBPGEC offers Information Technology, Civil Engineering and Mechanical Engineering."
+                        ],
+                        "context_set": ""
+                }
+        ]
 }
