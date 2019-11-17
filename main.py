@@ -1,3 +1,9 @@
+
+import nltk
+nltk.download('punkt')
+from nltk.stem.lancaster import LancasterStemmer
+stemmer = LancasterStemmer()
+
 import time
 import difflib
 import numpy
@@ -9,10 +15,6 @@ from flask import Flask, render_template, request
 import json
 import pickle
 import os
-
-import nltk
-from nltk.stem.lancaster import LancasterStemmer
-stemmer = LancasterStemmer()
 
 app = Flask(__name__)
 with open("intents.json") as file:
