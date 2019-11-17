@@ -181,8 +181,7 @@ def chat(inp):
             return random.choice(responses)
 
         else:
-            return "Sorry, I dont have answer to that question \n You can try asking me (how to reach college) "
-
+            return "Sorry, I dont know what to say right now, after I train more I might be able to help you then "
 
 @app.route("/")
 def home():
