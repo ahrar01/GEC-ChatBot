@@ -1,4 +1,5 @@
 import nltk
+nltk.download('punkt')
 import time
 from nltk.stem.lancaster import LancasterStemmer
 stemmer = LancasterStemmer()
