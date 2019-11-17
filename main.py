@@ -1,7 +1,4 @@
-import nltk
 import time
-from nltk.stem.lancaster import LancasterStemmer
-stemmer = LancasterStemmer()
 import difflib
 import numpy
 import webbrowser
@@ -12,6 +9,11 @@ from flask import Flask, render_template, request
 import json
 import pickle
 import os
+
+import nltk
+from nltk.stem.lancaster import LancasterStemmer
+stemmer = LancasterStemmer()
+
 app = Flask(__name__)
 with open("intents.json") as file:
     data = json.load(file)
