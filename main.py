@@ -158,7 +158,7 @@ def chat(inp):
     while True:
         if inp.lower() == "bye":
             return "Good Bye!"
-            break
+            
         
         inp_x = word_checker(inp)
         print(inp_x)
