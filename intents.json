@@ -24,6 +24,8 @@
                         "tag": "goodbye",
                         "patterns": [
                                 "cya",
+                                "see you",
+                                "bye bye",
                                 "See you later",
                                 "Goodbye",
                                 "I am Leaving",
@@ -45,23 +47,38 @@
                 {
                         "tag": "creator",
                         "patterns": [
+
+                                "what is the name of your developers",
+                                "what is the name of your creators",
+                                "what is the name of the developers",
+                                "what is the name of the creators",
                                 "who created you",
+                                "your developers",
+                                "your creators",
                                 "who are your developers",
                                 "developers",
+                                "you are made by",
+                                "you are made by whom",
+                                "who created you",
+                                "who create you",
                                 "creators",
                                 "who made you",
                                 "who designed you"
                         ],
                         "responses": [
-                                "I group of friends developed me in oct 2019",
+                                "Ankush and Ahraar developed me in oct 2019, for their minor project",
                                 "I was developed by Ahraar and Ankush",
-                                "2 young boys developed me in CBPGEC college"
+                                "2 young boys developed me in CBPGEC college, Ankush and Ahraar"
                         ],
                         "context_set": ""
                 },
                 {
                         "tag": "name",
                         "patterns": [
+                                "name",
+                                "your name",
+                                "do you have a name",
+                                "what are you called",
                                 "what is your name",
                                 "what should I call you",
                                 "whats your name?",
@@ -81,6 +98,9 @@
                 {
                         "tag": "hours",
                         "patterns": [
+                                "timing of college",
+                                "what is college timing",
+                                "working days",
                                 "when are you guys open",
                                 "what are your hours",
                                 "hours of operation",
@@ -102,6 +122,11 @@
                 {
                         "tag": "number",
                         "patterns": [
+                                "more info",
+                                "contact info",
+                                "how to contact college",
+                                "college telephone number",
+                                "college number",
                                 "What is your contact no",
                                 "Contact number?",
                                 "how to call you",
@@ -123,6 +148,9 @@
                         "patterns": [
                                 "what are the courses offered in your college?",
                                 "courses?",
+                                "courses offered",
+                                "courses offered in cbpgec",
+                                "courses you offer",
                                 "branches?",
                                 "courses available at GEC?",
                                 "branches available at GEC?",
@@ -145,6 +173,12 @@
                 {
                         "tag": "fees",
                         "patterns": [
+                                "college fee",
+                                "fee per semester",
+                                "what is the fee of each semester",
+                                "what is the fees of each year",
+                                "what is fee",
+                        
                                 "what is the fees",
                                 "how much is the fees",
                                 "fees for first year",

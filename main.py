@@ -1,6 +1,5 @@
 
 import nltk
-nltk.download('punkt')
 from nltk.stem.lancaster import LancasterStemmer
 stemmer = LancasterStemmer()
 
@@ -170,18 +169,18 @@ def chat(inp):
         results = model.predict([bag_of_words(inp_x, words)])[0]
         results_index = numpy.argmax(results)
         tag = labels[results_index]
+        print(results[results_index])
 
         if inp == "":
             return "Hey ask me some questions like...courses available at GEC?  "
-        
-        elif results[results_index] > 0.9:
+        elif results[results_index] >= 1.0:
             for tg in data["intents"]:
                 if tg['tag'] == tag:
                     responses = tg['responses']
             return random.choice(responses)
 
         else:
-            return "Sorry, I dont know what to say right now, after I train more I might be able to help you then "
+            return "Sorry, I don't know how to answer that yet "
 
 @app.route("/")
 def home():
